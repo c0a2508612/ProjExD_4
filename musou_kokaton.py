@@ -246,7 +246,7 @@ class EMP:
         self.yellow_bg.fill((255, 255, 0))
         self.yellow_bg.set_alpha(70)
     
-    def update(self, key_lst: list[bool], score: Score):
+    def update(self, key_lst: list[bool], score):
         """EMPを起動させる関数
 
         Args:
